@@ -1,0 +1,12 @@
+default: &default
+  adapter: mysql2
+  username: root
+  password: w4ll3tku
+
+development:
+  <<: *default
+  database: sehatq_test
+
+test:
+  <<: *default
+  database: sehatq_test
